@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Hello Earth!'));
+app.get('/', (req, res) => res.send('Hello Mars!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
@@ -12,4 +12,4 @@ console.log(`App running on http://localhost:${port}`);
 
 // git add --all .
 // git commit -m "Message"
-// git push origin [branch]
+// git push origin [branch]	
